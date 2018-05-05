@@ -14,6 +14,8 @@
 		B6D3A5FA209E071D004E0240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D3A5F8209E071D004E0240 /* LaunchScreen.storyboard */; };
 		B6D3A605209E071D004E0240 /* NotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D3A604209E071D004E0240 /* NotificationsTests.swift */; };
 		B6D3A610209E071D004E0240 /* NotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D3A60F209E071D004E0240 /* NotificationsUITests.swift */; };
+		B6D3A65F209E2791004E0240 /* Screen Shot 2018-05-05 at 11.24.29 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D3A65D209E2791004E0240 /* Screen Shot 2018-05-05 at 11.24.29 PM.png */; };
+		B6D3A660209E2791004E0240 /* Screen Shot 2018-05-05 at 11.24.42 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D3A65E209E2791004E0240 /* Screen Shot 2018-05-05 at 11.24.42 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B6D3A60B209E071D004E0240 /* NotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D3A60F209E071D004E0240 /* NotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsUITests.swift; sourceTree = "<group>"; };
 		B6D3A611209E071D004E0240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D3A65D209E2791004E0240 /* Screen Shot 2018-05-05 at 11.24.29 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-05-05 at 11.24.29 PM.png"; sourceTree = "<group>"; };
+		B6D3A65E209E2791004E0240 /* Screen Shot 2018-05-05 at 11.24.42 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-05-05 at 11.24.42 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		B6D3A5E3209E071D004E0240 = {
 			isa = PBXGroup;
 			children = (
+				B6D3A65C209E271A004E0240 /* Screenshots */,
 				B6D3A5EE209E071D004E0240 /* Notifications */,
 				B6D3A603209E071D004E0240 /* NotificationsTests */,
 				B6D3A60E209E071D004E0240 /* NotificationsUITests */,
@@ -123,6 +128,15 @@
 				B6D3A611209E071D004E0240 /* Info.plist */,
 			);
 			path = NotificationsUITests;
+			sourceTree = "<group>";
+		};
+		B6D3A65C209E271A004E0240 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				B6D3A65D209E2791004E0240 /* Screen Shot 2018-05-05 at 11.24.29 PM.png */,
+				B6D3A65E209E2791004E0240 /* Screen Shot 2018-05-05 at 11.24.42 PM.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +248,8 @@
 			files = (
 				B6D3A5FA209E071D004E0240 /* LaunchScreen.storyboard in Resources */,
 				B6D3A5F7209E071D004E0240 /* Assets.xcassets in Resources */,
+				B6D3A65F209E2791004E0240 /* Screen Shot 2018-05-05 at 11.24.29 PM.png in Resources */,
+				B6D3A660209E2791004E0240 /* Screen Shot 2018-05-05 at 11.24.42 PM.png in Resources */,
 				B6D3A5F5209E071D004E0240 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
