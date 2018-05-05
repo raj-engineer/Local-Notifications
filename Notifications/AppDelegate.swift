@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import UserNotifications
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // Requesting for Authorization
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: [.badge,.alert,.sound]) { (sucess, error) in
+            if error != nil{
+                print("Authorization Unsucessful")
+            }else{
+                print("Authorization sucessful")
+            }
+        }
+        
         return true
     }
 
